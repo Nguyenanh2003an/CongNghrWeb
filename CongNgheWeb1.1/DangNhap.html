@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/trangchu.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css">
+  </head>
+  <body>
+    <div class="header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="TrangChu.html">
+            <img class="logo" src="img/Five_panda.png" alt="Trang chủ">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="TrangChu.html">Trang Chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="SanPham.html">Sản Phẩm</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="DangNhap.html">Đăng Nhập</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="DangKy.html">Đăng Ký</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container text-center mt-5 bg-light rounded w-50">
+        <form class="row g-3 w-75 m-auto" onsubmit="DangNhap()">
+            <h1 class="text-center">ĐĂNG NHẬP</h1>
+            <div class="col-md-12 col-sm-12">
+                <input type="email" placeholder="Email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-12 col-sm-12">
+                <input type="password" placeholder="Password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12 col-sm-12">
+                <button style="font-weight: bold;" type="submit" class="btn btn-success mb-3">Đăng Ký</button>
+            </div>
+        </form>
+    </div>
+    <div class="fooder bg-body-tertiary mt-5">
+      <div class="container">
+        <ul class="row text-center">
+          <li class="col mt-3">
+            <p>
+              &copy; Bản quền không có bản quyền! 
+              <br>
+              Sau chia tay em thấy sao về cuộc đời em. 
+              <br>
+              Em cô đơn hay thích hơn đã kể ai xem?
+              <br>
+              Sau chia tay anh thích trong phòng ngooiif chơi game. 
+              <br>
+              Anh không đâu không khóc đâu, cũng chẳng say mèn.  
+            </p>
+          </li>
+          <li class="col list-group-flush mt-3">
+            <a href="#" class="list-group-item ">Pintenres <i class="fab fa-pinterest"></i></a>
+            <a href="#" class="list-group-item ">Twitter <i class="fab fa-twitter"></i></a>
+            <a href="#" class="list-group-item ">Facebook <i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li class="col mt-3">
+            <p>
+              Thì ra tương tư là thế này
+              <br>
+              24/7
+              <br>
+              Nghĩ đến em
+              <br> 
+              Nghĩ đến em
+              <br>
+              Thả mây trôi qua từng kẽ tay
+              <br>
+              Cho làn khói này khẽ bay
+              <br>
+              Chìm sâu vào giai điệu êm ái
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/dangky.js"></script>
+  </body>
+</html>

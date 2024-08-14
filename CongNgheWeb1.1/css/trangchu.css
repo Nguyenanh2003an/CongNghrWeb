@@ -1,0 +1,97 @@
+.navbar-brand img.logo{
+    width: 100%;
+    box-shadow: -10px 10px 5px #00000080 ;
+}
+
+.header{
+    margin-bottom: 10px;
+}
+
+.navbar-nav{
+    margin: auto;
+    width: 80%;
+}
+
+.navbar-brand{
+    width: 10%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+body{
+    background: #ebe6e6;
+}
+
+li.nav-item{
+    width: 23%;
+}
+
+li.nav-item > a{
+    text-align: center;
+    text-decoration: none;
+    background: #b4d9e8;
+    display: block;
+    box-shadow: -20px 20px 10px #00000080;
+    transform: rotate(0deg) skew(20deg) translate(0, 0); 
+    color:  rgb(9, 57, 178);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+li.nav-item > a::after{
+    content: '';
+    position: absolute;
+    background: #b1b1b1;
+    bottom: -20px;
+    left: -5px;
+    margin-left: 20px;
+    transform: rotate(0deg) skewX(-45deg);
+}
+
+li.nav-item > a:hover{
+    transform: rotate(0deg) skew(20deg) translate(10px, -5px);
+    background: #53b9e0;
+    box-shadow: -50px 30px 60px #00000080;
+    margin-left: 20px;
+}
+
+li.nav-item > a.active{
+    transform: rotate(0deg) skew(20deg) translate(10px, -5px);
+    background: #42a6cd;
+    box-shadow: -50px 30px 60px #00000080;
+    color: rgb(18, 48, 123);
+    margin-left: 20px;
+}
+
+.d-flex input{
+    height: 75%;
+    border:1px solid #42a6cd;
+}
+
+.btn-outline-success{
+    color: rgb(18, 48, 123);
+    font-weight: bold;
+    border: 2px solid #42a6cd;
+}
+
+.d-flex button:hover{
+    background: #53b9e0;
+    box-shadow: -20px 20px 50px #00000080;
+}
+/* main */
+/*fooder*/
+
+ul{
+    list-style: none;
+}
+
+.btn-success:hover{
+    color: #00000080;
+    background-color: #b4d9e8;
+}
+
+.list-group-item:hover{
+    color: #42a6cd;
+    text-shadow: 5px 5px 5px #b1b1b1;
+}
+
